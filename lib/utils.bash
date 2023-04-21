@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 set -euo pipefail
-set -x
 
 GH_REPO="https://github.com/transifex/cli"
 TOOL_NAME="tx"
@@ -79,4 +78,3 @@ install_version() {
     fail "An error ocurred while installing $TOOL_NAME $version."
   )
 }
-
